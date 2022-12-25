@@ -1,0 +1,8 @@
+:root{
+    --fontFamily: "Space Grotesk",Helvetica,Arial,sans-serif;
+}
+
+
+body{
+    font-family: var(--fontFamily);
+}
