@@ -1,8 +1,93 @@
 :root{
-    --fontFamily: "Space Grotesk",Helvetica,Arial,sans-serif;
+    --fontFamily: 'Chivo Mono', monospace;
+    --darkColor: rgb(36, 36, 36);
+    --lightColor: rgb(235, 235, 235);
+    --lightColor2:rgb(204, 204, 204);
+    --hightlight: rgb(250, 232, 200);
 }
 
 
+html{
+    height: 100%;
+}
+
 body{
+
+    box-sizing: border-box;
+
+    background-color: var(--darkColor);
+    color: var(--lightColor);
     font-family: var(--fontFamily);
+    line-height: 2rem;
+    text-align: justify;
+    height: 100%;
+}
+
+a{
+    color: var(--lightColor2);
+    text-decoration: none;
+}
+
+
+#navbar{
+    position: relative;
+    text-align: center;
+    border-bottom: 1px solid var(--lightColor);
+    overflow-wrap: break-word;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+
+#main-doc{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+}
+
+
+#navbar > header{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--hightlight);
+}
+
+#navbar > a > h3{
+    padding-bottom: 10px;
+}
+
+.main-section > header{
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--hightlight);
+    width: auto;
+}
+
+.main-section > p{
+    text-indent: 50px;
+}
+
+@media (min-width: 685px) {
+    
+    #main-doc{
+        position: absolute;
+        left: 310px;
+        padding: 20px;
+    }
+    
+    #navbar{
+        margin-top: 50px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        border-bottom: 0px;
+        width: 300px;
+    }
+}
+
+
+code{
+    background-color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-style: italic;
 }
