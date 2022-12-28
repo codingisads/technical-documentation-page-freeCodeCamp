@@ -6,5 +6,5 @@
 
 <p>You can check how it looks visiting the link below:</p>
 
-<h3><a href="https://technical-docpage-codingisads.netlify.app" alt="technical-docpage-codingisads" target="_blank">JavaScript Technical Documentation Page (in progress)</a></h3>
+<h3><a href="https://technical-docpage-codingisads.netlify.app" alt="technical-docpage-codingisads" target="_blank">JavaScript Technical Documentation Page</a></h3>
 
